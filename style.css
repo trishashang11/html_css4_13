@@ -45,7 +45,7 @@ div:nth-child(5) p{
     background-color: pink;
 }
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
-div:nth-child(5) p>p{
+div:nth-child(5) p:last-child{
     border: 5px solid white;
 }
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
