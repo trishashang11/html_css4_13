@@ -76,3 +76,36 @@ h1:hover{
 a:visited{
     color: gray;
 }
+.container1{
+    display:flex;
+    justify-content:center;
+   
+    flex-direction:row-reverse;
+    height:100px;
+  }
+  .container2{
+    display:flex;
+   
+    align-items:center;
+    flex-direction:column;
+  }
+  .container3{
+    display:flex;
+     
+   
+   
+  }
+  .box{
+    width:50px;
+    height:50px;
+    margin:0 20px;
+  }
+  #purple{order: 2; background-color:purple;}
+  #orange{order: 3; background-color:orange; margin:5px 0;}
+  #lightgreen{order: 1; background-color:lightgreen;}
+  #pink{background-color:pink; align-self:flex-end;}
+  #skyblue{background-color:skyblue; align-self:center;}
+  #yellow{background-color:yellow;}
+  #green{background-color:green; width:50px; height:50px;flex-grow:1;}
+  #blue{background-color:blue;width:50px; height:50px; flex-shrink:3;}
+  #white{background-color:white;width:50px; height:50px;  flex-basis:100px;}
